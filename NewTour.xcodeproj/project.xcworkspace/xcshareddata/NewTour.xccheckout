@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>010338EF-A8B6-4E60-B7E3-0F45003CB762</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>17E2A94D68E6BE6B857831CD5A93BE0A05F0FC3F</key>
+		<string>https://github.com/BeNotJustCoder/NewTour.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NewTour.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>17E2A94D68E6BE6B857831CD5A93BE0A05F0FC3F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BeNotJustCoder/NewTour.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>17E2A94D68E6BE6B857831CD5A93BE0A05F0FC3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>17E2A94D68E6BE6B857831CD5A93BE0A05F0FC3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NewTour</string>
+		</dict>
+	</array>
+</dict>
+</plist>

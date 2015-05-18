@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--特价-->
+        <scene sceneID="2PM-0R-8Vh">
+            <objects>
+                <tableViewController id="0cK-8L-rjw" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cmf-wx-BJa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SQX-rJ-N6T">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SQX-rJ-N6T" id="Ocu-lj-49q">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0cK-8L-rjw" id="Hn3-Ht-bMf"/>
+                            <outlet property="delegate" destination="0cK-8L-rjw" id="b8a-oI-7j3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="特价" id="oSi-oN-dnz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjm-Gz-kSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="241" y="347"/>
+        </scene>
+        <!--Sale Nav Controller-->
+        <scene sceneID="obQ-Hv-D9t">
+            <objects>
+                <navigationController storyboardIdentifier="NTSale" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L9J-NW-5UJ" customClass="NTSaleNavController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hZB-OL-OVY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0cK-8L-rjw" kind="relationship" relationship="rootViewController" id="rEA-PL-qkI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awb-rh-Z5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-579" y="347"/>
+        </scene>
+    </scenes>
+</document>

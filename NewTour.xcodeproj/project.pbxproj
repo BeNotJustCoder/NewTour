@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		BE17BBC91B063E05008C9110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17BBC81B063E05008C9110 /* main.m */; };
 		BE17BBCC1B063E05008C9110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17BBCB1B063E05008C9110 /* AppDelegate.m */; };
-		BE17BBCF1B063E05008C9110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17BBCE1B063E05008C9110 /* ViewController.m */; };
 		BE17BBD21B063E05008C9110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE17BBD01B063E05008C9110 /* Main.storyboard */; };
 		BE17BBD41B063E06008C9110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17BBD31B063E06008C9110 /* Images.xcassets */; };
 		BE17BBD71B063E06008C9110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE17BBD51B063E06008C9110 /* LaunchScreen.xib */; };
 		BE17BBE31B063E06008C9110 /* NewTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17BBE21B063E06008C9110 /* NewTourTests.m */; };
+		BEE6EFC51B0A29920002EC18 /* GGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFC01B0A29920002EC18 /* GGTabBar.m */; };
+		BEE6EFC61B0A29920002EC18 /* GGTabBarAppearanceKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFC21B0A29920002EC18 /* GGTabBarAppearanceKeys.m */; };
+		BEE6EFC71B0A29920002EC18 /* GGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFC41B0A29920002EC18 /* GGTabBarController.m */; };
+		BEE6EFCB1B0A32DB0002EC18 /* NTDestinationNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFC91B0A32DB0002EC18 /* NTDestinationNavController.m */; };
+		BEE6EFD01B0A33020002EC18 /* NTExploreNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFCE1B0A33020002EC18 /* NTExploreNavController.m */; };
+		BEE6EFD51B0A33310002EC18 /* NTMeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFD31B0A33310002EC18 /* NTMeNavController.m */; };
+		BEE6EFDA1B0A33740002EC18 /* NTNewTripNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFD81B0A33740002EC18 /* NTNewTripNavController.m */; };
+		BEE6EFDF1B0A339F0002EC18 /* NTSaleNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6EFDD1B0A339F0002EC18 /* NTSaleNavController.m */; };
+		BEE6EFE21B0A3CC60002EC18 /* NTDestination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE6EFE11B0A3CC60002EC18 /* NTDestination.storyboard */; };
+		BEE6EFE51B0A4B550002EC18 /* NTMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE6EFE41B0A4B550002EC18 /* NTMe.storyboard */; };
+		BEE6EFEB1B0A4CCA0002EC18 /* NTExplore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE6EFEA1B0A4CCA0002EC18 /* NTExplore.storyboard */; };
+		BEE6EFED1B0A4CDC0002EC18 /* NTNewTrip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE6EFEC1B0A4CDC0002EC18 /* NTNewTrip.storyboard */; };
+		BEE6EFEF1B0A4D150002EC18 /* NTSale.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE6EFEE1B0A4D150002EC18 /* NTSale.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +44,34 @@
 		BE17BBC81B063E05008C9110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE17BBCA1B063E05008C9110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE17BBCB1B063E05008C9110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE17BBCD1B063E05008C9110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE17BBCE1B063E05008C9110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE17BBD11B063E05008C9110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE17BBD31B063E06008C9110 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE17BBD61B063E06008C9110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE17BBDC1B063E06008C9110 /* NewTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE17BBE11B063E06008C9110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE17BBE21B063E06008C9110 /* NewTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTourTests.m; sourceTree = "<group>"; };
+		BEE6EFBE1B0A29920002EC18 /* GGTabBar-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GGTabBar-Private.h"; sourceTree = "<group>"; };
+		BEE6EFBF1B0A29920002EC18 /* GGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBar.h; sourceTree = "<group>"; };
+		BEE6EFC01B0A29920002EC18 /* GGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBar.m; sourceTree = "<group>"; };
+		BEE6EFC11B0A29920002EC18 /* GGTabBarAppearanceKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarAppearanceKeys.h; sourceTree = "<group>"; };
+		BEE6EFC21B0A29920002EC18 /* GGTabBarAppearanceKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarAppearanceKeys.m; sourceTree = "<group>"; };
+		BEE6EFC31B0A29920002EC18 /* GGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarController.h; sourceTree = "<group>"; };
+		BEE6EFC41B0A29920002EC18 /* GGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarController.m; sourceTree = "<group>"; };
+		BEE6EFC81B0A32DB0002EC18 /* NTDestinationNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDestinationNavController.h; sourceTree = "<group>"; };
+		BEE6EFC91B0A32DB0002EC18 /* NTDestinationNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDestinationNavController.m; sourceTree = "<group>"; };
+		BEE6EFCD1B0A33020002EC18 /* NTExploreNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTExploreNavController.h; sourceTree = "<group>"; };
+		BEE6EFCE1B0A33020002EC18 /* NTExploreNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTExploreNavController.m; sourceTree = "<group>"; };
+		BEE6EFD21B0A33310002EC18 /* NTMeNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTMeNavController.h; sourceTree = "<group>"; };
+		BEE6EFD31B0A33310002EC18 /* NTMeNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTMeNavController.m; sourceTree = "<group>"; };
+		BEE6EFD71B0A33740002EC18 /* NTNewTripNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNewTripNavController.h; sourceTree = "<group>"; };
+		BEE6EFD81B0A33740002EC18 /* NTNewTripNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNewTripNavController.m; sourceTree = "<group>"; };
+		BEE6EFDC1B0A339F0002EC18 /* NTSaleNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSaleNavController.h; sourceTree = "<group>"; };
+		BEE6EFDD1B0A339F0002EC18 /* NTSaleNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSaleNavController.m; sourceTree = "<group>"; };
+		BEE6EFE11B0A3CC60002EC18 /* NTDestination.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTDestination.storyboard; sourceTree = "<group>"; };
+		BEE6EFE41B0A4B550002EC18 /* NTMe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTMe.storyboard; sourceTree = "<group>"; };
+		BEE6EFEA1B0A4CCA0002EC18 /* NTExplore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTExplore.storyboard; sourceTree = "<group>"; };
+		BEE6EFEC1B0A4CDC0002EC18 /* NTNewTrip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTNewTrip.storyboard; sourceTree = "<group>"; };
+		BEE6EFEE1B0A4D150002EC18 /* NTSale.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NTSale.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +113,11 @@
 		BE17BBC51B063E05008C9110 /* NewTour */ = {
 			isa = PBXGroup;
 			children = (
-				BE17BBCA1B063E05008C9110 /* AppDelegate.h */,
-				BE17BBCB1B063E05008C9110 /* AppDelegate.m */,
-				BE17BBCD1B063E05008C9110 /* ViewController.h */,
-				BE17BBCE1B063E05008C9110 /* ViewController.m */,
+				BE800A5E1B08E1FC00254EBF /* Others */,
+				BE800A5F1B08E9C300254EBF /* Controllers */,
+				BE800A601B08EA7600254EBF /* Models */,
+				BE800A611B08EAA900254EBF /* Views */,
 				BE17BBD01B063E05008C9110 /* Main.storyboard */,
-				BE17BBD31B063E06008C9110 /* Images.xcassets */,
-				BE17BBD51B063E06008C9110 /* LaunchScreen.xib */,
 				BE17BBC61B063E05008C9110 /* Supporting Files */,
 			);
 			path = NewTour;
@@ -96,6 +126,8 @@
 		BE17BBC61B063E05008C9110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE17BBD31B063E06008C9110 /* Images.xcassets */,
+				BE17BBD51B063E06008C9110 /* LaunchScreen.xib */,
 				BE17BBC71B063E05008C9110 /* Info.plist */,
 				BE17BBC81B063E05008C9110 /* main.m */,
 			);
@@ -117,6 +149,106 @@
 				BE17BBE11B063E06008C9110 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE800A5E1B08E1FC00254EBF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFBD1B0A29920002EC18 /* GGTabBar */,
+				BE17BBCA1B063E05008C9110 /* AppDelegate.h */,
+				BE17BBCB1B063E05008C9110 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		BE800A5F1B08E9C300254EBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFE71B0A4C670002EC18 /* Explore */,
+				BEE6EFE31B0A49D10002EC18 /* Destination */,
+				BEE6EFE91B0A4C910002EC18 /* NewTrip */,
+				BEE6EFE61B0A4C410002EC18 /* Me */,
+				BEE6EFE81B0A4C7D0002EC18 /* Sale */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BE800A601B08EA7600254EBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BE800A611B08EAA900254EBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEE6EFBD1B0A29920002EC18 /* GGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFBE1B0A29920002EC18 /* GGTabBar-Private.h */,
+				BEE6EFBF1B0A29920002EC18 /* GGTabBar.h */,
+				BEE6EFC01B0A29920002EC18 /* GGTabBar.m */,
+				BEE6EFC11B0A29920002EC18 /* GGTabBarAppearanceKeys.h */,
+				BEE6EFC21B0A29920002EC18 /* GGTabBarAppearanceKeys.m */,
+				BEE6EFC31B0A29920002EC18 /* GGTabBarController.h */,
+				BEE6EFC41B0A29920002EC18 /* GGTabBarController.m */,
+			);
+			path = GGTabBar;
+			sourceTree = "<group>";
+		};
+		BEE6EFE31B0A49D10002EC18 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFC81B0A32DB0002EC18 /* NTDestinationNavController.h */,
+				BEE6EFC91B0A32DB0002EC18 /* NTDestinationNavController.m */,
+				BEE6EFE11B0A3CC60002EC18 /* NTDestination.storyboard */,
+			);
+			name = Destination;
+			sourceTree = "<group>";
+		};
+		BEE6EFE61B0A4C410002EC18 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFD21B0A33310002EC18 /* NTMeNavController.h */,
+				BEE6EFD31B0A33310002EC18 /* NTMeNavController.m */,
+				BEE6EFE41B0A4B550002EC18 /* NTMe.storyboard */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		BEE6EFE71B0A4C670002EC18 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFCD1B0A33020002EC18 /* NTExploreNavController.h */,
+				BEE6EFCE1B0A33020002EC18 /* NTExploreNavController.m */,
+				BEE6EFEA1B0A4CCA0002EC18 /* NTExplore.storyboard */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		BEE6EFE81B0A4C7D0002EC18 /* Sale */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFDC1B0A339F0002EC18 /* NTSaleNavController.h */,
+				BEE6EFDD1B0A339F0002EC18 /* NTSaleNavController.m */,
+				BEE6EFEE1B0A4D150002EC18 /* NTSale.storyboard */,
+			);
+			name = Sale;
+			sourceTree = "<group>";
+		};
+		BEE6EFE91B0A4C910002EC18 /* NewTrip */ = {
+			isa = PBXGroup;
+			children = (
+				BEE6EFD71B0A33740002EC18 /* NTNewTripNavController.h */,
+				BEE6EFD81B0A33740002EC18 /* NTNewTripNavController.m */,
+				BEE6EFEC1B0A4CDC0002EC18 /* NTNewTrip.storyboard */,
+			);
+			name = NewTrip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE6EFEB1B0A4CCA0002EC18 /* NTExplore.storyboard in Resources */,
+				BEE6EFED1B0A4CDC0002EC18 /* NTNewTrip.storyboard in Resources */,
 				BE17BBD21B063E05008C9110 /* Main.storyboard in Resources */,
 				BE17BBD71B063E06008C9110 /* LaunchScreen.xib in Resources */,
 				BE17BBD41B063E06008C9110 /* Images.xcassets in Resources */,
+				BEE6EFE51B0A4B550002EC18 /* NTMe.storyboard in Resources */,
+				BEE6EFE21B0A3CC60002EC18 /* NTDestination.storyboard in Resources */,
+				BEE6EFEF1B0A4D150002EC18 /* NTSale.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE17BBCF1B063E05008C9110 /* ViewController.m in Sources */,
+				BEE6EFC61B0A29920002EC18 /* GGTabBarAppearanceKeys.m in Sources */,
+				BEE6EFD01B0A33020002EC18 /* NTExploreNavController.m in Sources */,
 				BE17BBCC1B063E05008C9110 /* AppDelegate.m in Sources */,
+				BEE6EFD51B0A33310002EC18 /* NTMeNavController.m in Sources */,
+				BEE6EFDA1B0A33740002EC18 /* NTNewTripNavController.m in Sources */,
+				BEE6EFCB1B0A32DB0002EC18 /* NTDestinationNavController.m in Sources */,
+				BEE6EFDF1B0A339F0002EC18 /* NTSaleNavController.m in Sources */,
+				BEE6EFC71B0A29920002EC18 /* GGTabBarController.m in Sources */,
 				BE17BBC91B063E05008C9110 /* main.m in Sources */,
+				BEE6EFC51B0A29920002EC18 /* GGTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +562,7 @@
 				BE17BBE81B063E06008C9110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE17BBE91B063E06008C9110 /* Build configuration list for PBXNativeTarget "NewTourTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +571,7 @@
 				BE17BBEB1B063E06008C9110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--新旅程-->
+        <scene sceneID="zfg-NE-ia2">
+            <objects>
+                <tableViewController id="fQe-Mz-kcN" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="evp-A6-gZr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wwO-V6-R1B">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wwO-V6-R1B" id="TYG-OA-35f">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fQe-Mz-kcN" id="As4-Pi-nkm"/>
+                            <outlet property="delegate" destination="fQe-Mz-kcN" id="JIL-lz-UJ7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="新旅程" id="NSI-Ql-Eog"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bes-e7-BpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="327"/>
+        </scene>
+        <!--New Trip Nav Controller-->
+        <scene sceneID="lZF-Gy-zq3">
+            <objects>
+                <navigationController storyboardIdentifier="NTNewTrip" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sgb-bp-ZS7" customClass="NTNewTripNavController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eaU-iL-SYg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fQe-Mz-kcN" kind="relationship" relationship="rootViewController" id="mA7-bC-drX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nf0-Uz-pb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="327"/>
+        </scene>
+    </scenes>
+</document>

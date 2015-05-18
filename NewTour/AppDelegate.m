@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "GGTabBarController.h"
+#import "NTExploreNavController.h"
+#import "NTDestinationNavController.h"
+#import "NTMeNavController.h"
+#import "NTSaleNavController.h"
+#import "NTNewTripNavController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +23,54 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    GGTabBarController *tabBar = [[GGTabBarController alloc] init];
+    
+    //推荐
+    UIStoryboard *storyboardExplore = [UIStoryboard storyboardWithName:@"NTExplore" bundle:nil];
+    NTExploreNavController *exploreNavController = (NTExploreNavController *)[storyboardExplore instantiateViewControllerWithIdentifier:@"NTExplore"];
+    exploreNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                    image:[UIImage imageNamed:@"tabbar_explore"]
+                                            selectedImage:[UIImage imageNamed:@"tabbar_explore_hl"]];
+    
+    //目的地
+    UIStoryboard *storyboardDest = [UIStoryboard storyboardWithName:@"NTDestination" bundle:nil];
+    NTDestinationNavController *destinationNavController = (NTDestinationNavController *)[storyboardDest instantiateViewControllerWithIdentifier:@"NTDestination"];
+    destinationNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                    image:[UIImage imageNamed:@"tabbar_dest"]
+                                            selectedImage:[UIImage imageNamed:@"tabbar_dest_hl"]];
+    
+    //新旅程
+    UIStoryboard *storyboardNewTrip = [UIStoryboard storyboardWithName:@"NTNewTrip" bundle:nil];
+    NTNewTripNavController *newTripNavController = (NTNewTripNavController *)[storyboardNewTrip instantiateViewControllerWithIdentifier:@"NTNewTrip"];
+    newTripNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                    image:[UIImage imageNamed:@"tabbar_newtrip"]
+                                            selectedImage:[UIImage imageNamed:@"tabbar_newtrip_hl"]];
+    
+    //特价
+    UIStoryboard *storyboardSale = [UIStoryboard storyboardWithName:@"NTSale" bundle:nil];
+    NTSaleNavController *saleNavController = (NTSaleNavController *)[storyboardSale instantiateViewControllerWithIdentifier:@"NTSale"];
+    saleNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                            image:[UIImage imageNamed:@"tabbar_offline"]
+                                    selectedImage:[UIImage imageNamed:@"tabbar_offline_hl"]];
+    
+    
+    //我
+    UIStoryboard *storyboardMe = [UIStoryboard storyboardWithName:@"NTMe" bundle:nil];
+    NTMeNavController *meNavController = (NTMeNavController *)[storyboardMe instantiateViewControllerWithIdentifier:@"NTMe"];
+    meNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                    image:[UIImage imageNamed:@"tabbar_me"]
+                                            selectedImage:[UIImage imageNamed:@"tabbar_me_hl"]];
+    
+    tabBar.viewControllers = @[exploreNavController, destinationNavController, newTripNavController, meNavController, saleNavController ];
+    
+    self.window.rootViewController = tabBar;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
